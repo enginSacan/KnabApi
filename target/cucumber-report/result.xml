@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="5.353">
+    <testcase classname="Board CRUD actıons can be taken by user as follows:" name="Users wants to create a board" time="3.28">
+        <system-out>
+            <![CDATA[When User creates a board...................................................passed
+Then User should get the board..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Board CRUD actıons can be taken by user as follows:" name="User wants to update board" time="0.769">
+        <system-out>
+            <![CDATA[Given User gets created board...............................................passed
+When User updates board description.........................................passed
+Then User should get board with changes.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Board CRUD actıons can be taken by user as follows:" name="User wants to delete board" time="0.924">
+        <system-out>
+            <![CDATA[Given User gets created board...............................................passed
+When User deletes board created.............................................passed
+Then User should not get board..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
