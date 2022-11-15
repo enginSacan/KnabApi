@@ -5,11 +5,24 @@ This repo is created to show subject below:
 
 
 ## Preconditions
+You need to get your api key from your power-ups.
+
+https://trello.com/power-ups/
+
 You need to get new token with user api key from link below:
 
 https://trello.com/1/authorize?expiration=1day&name=Knab&scope=read,write&response_type=token&key=<your-api-key>
 
+## Params of Token Generator:
+* expiration: time of the token is valid.
+* name: Your application name.
+* scope: rights that token could have 'read, write, account'.
+* response_type: type that authentication should return.
+* key: Api Key that you get from your power ups.
+
 ## How It Works
+
+IMPORTANT NOTICE: Token and key need to be added to the rest.properties file before start the automation.
 
 You need to install maven and add chromedriver to the pc's path.
 
@@ -36,7 +49,9 @@ You can execute feature file in the IDE.
 
 Lombok library is used for creating model of the data from request and responses.
 
-Generic data structure is used with the properties. 
+Generic data structure is used with the properties.
+
+Variables could be added to rest.properties under resource folder.
 
 
 ## Requirement of the test
